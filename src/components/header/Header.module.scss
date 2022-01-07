@@ -19,6 +19,7 @@
     .title {
       font-size: 24px;
       font-family: "PIXEL CRAFT";
+      line-height: 62px;
       color: transparent;
       background: linear-gradient(180deg, #b11d18 65%, #862227 65% 100%);
       background-image: linear-gradient(rgb(177, 29, 24) 65%, rgb(134, 34, 39) 65%, rgb(134, 34, 39) 100%);
@@ -41,19 +42,16 @@
       font-weight: 500;
       font-family: BrokenConsole-Bold, Helvetica, sans-serif;
       color: white;
-      text-shadow: 0 6px 0 #003c62;
       display: flex;
       padding: 8px 12px 12px;
       align-items: center;
       text-align: center;
       margin-left: 16px;
+      border-bottom: 2px solid transparent;
 
-      &:active {
-        color: #000000;
-      }
-
+      &:active,
       &:hover {
-        color: #000000;
+        border-bottom-color: #b11d18;
       }
     }
 
