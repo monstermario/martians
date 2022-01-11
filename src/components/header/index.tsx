@@ -16,12 +16,12 @@ export const Header = () => {
             Wolf Game
           </div>
           <div className={styles.links}>
-            <Link to="/migrate" >Migrate</Link>
-            <Link to="/risky" >Risky Game</Link>
-            <Link to="/wool" >Wool Pouches</Link>
+            <Link to="/" >Migrate</Link>
+            <Link to="/risky-game" >Risky Game</Link>
+            <Link to="/pouches" >Wool Pouches</Link>
             <Link to="/land" >Land</Link>
             <Link to="/whitepaper" >Whitepaper</Link>
-            <Link to="/whitepaperv2" >Whitepaper V2</Link>
+            <Link to="/whitepaper-v2" >Whitepaper V2</Link>
           </div>
       </div>
       {/* <div className={styles.hamburger} onClick={toogleBtn}>
