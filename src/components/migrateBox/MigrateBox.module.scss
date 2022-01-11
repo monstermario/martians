@@ -1,0 +1,96 @@
+  .migrate {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border: 30px solid transparent;
+    border-image: url(../../assets/img/wood-frame-btn.svg) 30 / 1 / 0 stretch;
+    background: rgba(237, 227, 209, 0.8);
+    overflow: hidden;
+
+    .migrateContent {
+      margin-top: 20px;
+      font-size: 1.875rem;
+      line-height: 2.25rem;
+      font-family: BrokenConsole-Bold,
+        Helvetica,
+        sans-serif;
+      text-align: center;
+      color: rgba(177, 29, 24, var(1));
+      gap: 20px;
+
+      .content {
+        font-size: 16px;
+        line-height: 1.75rem;
+        font-family: BrokenConsole-Bold,
+          Helvetica,
+          sans-serif;
+        color: black;
+        margin-top: -20px;
+      }
+
+      .subtitle {
+        font-size: 40px;
+        line-height: 4rem;
+        font-family: BrokenConsole-Bold,
+          Helvetica,
+          sans-serif;
+        color: #b11d18;
+        -webkit-background-clip: text;
+        filter: drop-shadow(1px 1px 0 #000000);
+        margin: 40px 0 20px;
+      }
+
+      .connect {
+        position: relative;
+        width: 100%;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        margin-top: 1.25rem;
+        align-items: center;
+
+        .soldOut {
+          font-size: 20px;
+          font-family: BrokenConsole-Bold,
+            Helvetica,
+            sans-serif;
+          color: black;
+          text-align: center;
+          padding-top: 0.25rem;
+        }
+      }
+    }
+
+    @media (max-width: 960px) {
+      padding: 20px;
+
+      .connect {
+        flex-direction: column;
+        margin-bottom: 20px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      padding: 20px;
+
+      .connect {
+        flex-direction: column;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .migrateBox {
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    top: -20px;
+    left: -20px;
+    opacity: 0.08;
+    background-image: url(../../assets/img/wood-mask.svg);
+    background-repeat: repeat;
+    background-size: 400px 268px;
+  }
